@@ -1,0 +1,18 @@
+def armstrong(n):
+    temp=n
+    sum=0
+    while (n>0):
+        a=n%10
+        sum+=a**3
+        n=n//10
+    if(sum==temp):
+        print(temp,"is Armstrong number")
+    else:
+        print(temp,"is not Armstrong number")
+    return
+n=int(input("Enter a number : "))
+armstrong(n)
+
+Output:
+Enter a number : 153
+153 is Armstrong number
