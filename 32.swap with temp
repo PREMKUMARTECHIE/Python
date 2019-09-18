@@ -1,0 +1,13 @@
+def swap(x,y):
+    x,y=y,x
+    print("After Swapping..\na=",x,"\nb=",y)
+    return
+a,b=input("Enter values of a&b :\n").split()
+swap(a,b)
+
+Output:
+Enter values of a&b :
+34 5
+After Swapping..
+a= 5 
+b= 34
